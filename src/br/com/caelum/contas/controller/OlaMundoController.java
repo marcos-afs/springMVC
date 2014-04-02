@@ -8,7 +8,7 @@ public class OlaMundoController {
 	@RequestMapping("/olaMundoSpring")
 	public String execute(){
 		System.out.println("Olá Mundo Spring MVC");
-		
+		System.out.println("teste");
 		return "ola";
 	}
 }
